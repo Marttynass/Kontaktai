@@ -1,10 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-p,
-::placeholder {
-  font-size: 16px;
-}
 
 ::-webkit-input-placeholder {
   font-family: "Roboto", sans-serif;
@@ -43,7 +39,7 @@ h1 {
   float: left;
 }
 
-#contact_form {
+.contact_form {
   padding: 10px;
   margin: 8px;
   width: 420px;
@@ -64,4 +60,8 @@ input.submit_button {
   background-color: black;
   color: white;
   border-radius: 5px;
+}
+
+img {
+  max-width: 400px;
 }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kontaktai</title>
+    <link type="text/css" rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="assets/contact.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -22,7 +23,6 @@
             sapiente est beatae ducimus?
           </p>
           <img
-            width="400px"
             alt="mainpic"
             src="file:///C:/Users/Martynas/Desktop/Kontaktai/assets/undraw-contact.svg"
           />
@@ -33,8 +33,9 @@
           <form class="main_contact_form">
             <div>
               <input
+                class="contact_form"
                 type="text"
-                id="contact_form"
+                id="fname"
                 name="fname"
                 placeholder="Your Name*"
                 required
@@ -42,8 +43,9 @@
             </div>
             <div>
               <input
+                class="contact_form"
                 type="email"
-                id="contact_form"
+                id="email"
                 name="email"
                 placeholder="Email*"
                 required
@@ -51,15 +53,17 @@
             </div>
             <div>
               <input
+                class="contact_form"
                 type="text"
-                id="contact_form"
+                id="subject"
                 name="subject"
                 placeholder="Subject"
               />
             </div>
             <div>
               <textarea
-                id="contact_form"
+                class="contact_form"
+                id="textarea"
                 name="your_text"
                 placeholder="Write your message*"
                 style="height: 200px"
